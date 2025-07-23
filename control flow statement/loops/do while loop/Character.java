@@ -116,6 +116,25 @@ class Character
 		System.out.println("-------------------------------------------------------");
 		
 		
+		// uppercase alphabet with ascii value
+		char ch1 = 'A';
+		
+		do{
+			System.out.print(ch1 + " : " + (ch1 + 0) + " ");
+			ch1++;
+		}while(ch1 <= 'Z');
+		
+		System.out.println();
+		System.out.println("-------------------------------------------------------");
+		
+		// lowercase alphabet with ascii value
+		char ch2 = 'A';
+		
+		do{
+			System.out.print(ch2 + " : " + (ch2 + 0) + " ");
+			ch2++;
+		}while(ch2 <= 'Z');
+		
 
 
 
